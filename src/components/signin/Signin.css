@@ -1,0 +1,59 @@
+.si-m{
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    top: 10%;
+    left: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.si-p1
+{
+    color: #F07669;
+    font-size: 40px;
+    font-weight: 600;
+}
+.si-p2
+{
+    color: #3E3E3E;
+    font-size: 20px;
+    font-weight: 400;
+}
+.si-i{
+    width: 350px;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box;
+}
+.si-rf{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.si-c
+{
+    cursor: pointer;
+}
+.si-p3
+{
+    color: #F07669;
+    cursor: pointer;
+}
+.si-b
+{
+    width: 350px;
+    padding: 20px;
+    color: white;
+    background-color: #F07669;
+    border: none;
+    cursor: pointer;
+}
+.si-s2
+{
+    color: #F07669;
+    cursor: pointer;
+}

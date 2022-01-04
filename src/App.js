@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Signin from './components/signin/Signin';
+import Users from './components/users/Users';
+import {BrowserRouter} from "react-router-dom" 
+import React, {useState } from 'react';
 
 function App() {
+  const [state, setstate] = useState(false);
+
+
+
+  const fun = (e) => {
+    setstate(e)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        {state ?(<Users value={fun}/>):(<Signin value={fun}/>)}
+      </div>
+    </BrowserRouter>
   );
 }
 
