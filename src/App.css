@@ -2,3 +2,15 @@
   text-align: center;
 }
 
+.text-center
+{
+  position: absolute;
+  bottom: 100px;
+  left: 40%;
+}
+
+.signup-text
+{
+  color: #F07669;
+  cursor: pointer;
+}

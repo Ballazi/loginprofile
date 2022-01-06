@@ -40,7 +40,6 @@ function Signin(props) {
                 <p className='si-p3'>Forgot Password?</p>
             </div>
             <button className='si-b' onClick={loginHandler}>Sign In</button>
-            <p className='si-p4'>Don't Have an Account? <span className='si-s2'>Sign Up</span></p>
         </div>
     )
 }
